@@ -1,12 +1,16 @@
 #include <stdio.h>
 
-int main()
+int main(void)
 {
-    char character = 'a';
-    while (character <= 'Z') {
-        putchar(character);
-        character++;
-    }
-    putchar('\n');
-    return 0;
+  char c;
+
+  for (c = 'a'; c <= 'z'; ++c)
+    putchar(c);
+  
+  for (c = 'A'; c <= 'Z'; ++c)
+    putchar(c);
+  
+  putchar('\n');
+  
+  return 0;
 }

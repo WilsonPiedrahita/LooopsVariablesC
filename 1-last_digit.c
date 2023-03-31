@@ -4,7 +4,7 @@
 /* more headers goes there */
 
 
-int main()
+int main(void)
 {
 	int n;
 
